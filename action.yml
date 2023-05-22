@@ -1,6 +1,10 @@
-steps:
-- uses: actions/checkout@v3
-- uses: actions/setup-python@v4
-  with:
-    python-version: '3.10.8' 
-- run: python a.py
+name: hello world
+on:
+  push: 
+     branches:
+       [main]
+jobs:
+  say-hello:
+    runs-on:ubuntu-latest
+    steps:
+      - run:echo hello world
