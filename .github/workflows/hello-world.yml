@@ -1,6 +1,9 @@
 name: hello world
 on:
   push:
+     path:
+       - '!a121.jpg'
+       - '**.py'
      branches:
        [main]
 jobs:
