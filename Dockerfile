@@ -1,4 +1,4 @@
-FROM http://hanh0984426858.github.io/telepot9
-ADD 8ac335d
-RUN 3331e9c
+FROM python 3.10
+ADD a.py
+RUN pip install -r requirements.txt
 CMD [ "python", "./a.py" ]
