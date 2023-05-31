@@ -1,5 +1,0 @@
-opencv-contrib-python==4.6.0.66
-opencv-python==4.6.0.66
-opencv-python-headless==4.7.0.68
-yolov8
-telepot==12.7
