@@ -1,5 +1,6 @@
 from flask import Flask,render_template,Response
 from camera import VideoCamera
+from flask import json,request
 
 app=Flask(__name__)
 
@@ -20,6 +21,10 @@ def video_feed():
     return Response(gen(VideoCamera()),
          mimetype='multipart/X-mixed-replace; boundary=frame')
 
+@app.route('/github',methods=['POST'])
+def api_gh_message():
+    if request.headers['Content=Type'] == 'application/json':
+        return json.dumps(request.json)
 
 if __name__=='__main__':
     # app.run(host='0.0.0.0',port='5000',debug=True)
