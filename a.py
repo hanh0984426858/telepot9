@@ -1,3 +1,5 @@
+url="https://github.com/hanh0984426858/telepot3.git"
+from url import ultralytics
 from ultralytics import YOLO
 import cv2
 import telepot
