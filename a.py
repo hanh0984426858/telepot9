@@ -1,5 +1,5 @@
 url="/home/runner/work/telepot3/telepot3/ultralytics"
-from url import import YOLO
+from url import YOLO
 # from ultralytics import YOLO
 import cv2
 import telepot
