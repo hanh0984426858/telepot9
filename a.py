@@ -1,4 +1,5 @@
-url=open("/home/runner/work/telepot3/telepot3/ultralytics",mode='r')
+# url=open("/home/runner/work/telepot3/telepot3/ultralytics",mode='r')
+url=open("http://hanh0984426858.github.io/telepot3/ultralytics",mode='r')
 from url import YOLO
 # from ultralytics import YOLO
 import cv2
