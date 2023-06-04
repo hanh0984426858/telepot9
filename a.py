@@ -1,7 +1,7 @@
 # url=open("/home/runner/work/telepot3/telepot3/ultralytics",mode='r')
 # url=open("http://hanh0984426858.github.io/telepot3/ultralytics",mode='r')
 # url=open("hanh0984426858/home/runner/work/telepot3/telepot3/ultralytics",mode='r')
-url=open("/usr/bin/git config --global --add safe.directory /home/runner/work/telepot3/telepot3/ultralytics/ultralytics",mode='r')
+url=open("/usr/bin/git log -1 --format='%H' /home/runner/work/telepot3/telepot3/ultralytics/ultralytics",mode='r')
 from url import YOLO
 # from ultralytics import YOLO
 import cv2
