@@ -29,5 +29,5 @@ jobs:
           python a.py
       - name: Run Python Script
         run: |
-          python -m pip install telepot
+          python -m pip install pyTelegramBotAPI
           python a.py
