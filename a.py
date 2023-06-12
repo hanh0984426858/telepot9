@@ -12,7 +12,7 @@ import cv2
 # from telepot7.vc16 import cv2
 import telepot
 import numpy
-from home.runner.work.telepot3.telepot3.ultralytics import YOLO
+from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 results = model("rtsp://admin:admin1234@192.168.1.15:554/cam/realmonitor?channel=1&subtype=0",stream=True,show=True)
 def show_frame():
