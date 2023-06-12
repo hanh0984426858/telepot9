@@ -26,8 +26,9 @@ jobs:
       - name: Run Python Script
         run: |
           python -m pip install opencv-python
-          python a.py
-      - name: Run Python Script
-        run: |
           python -m pip install pyTelegramBotAPI
           python a.py
+      # - name: Run Python Script
+      #   run: |
+      #     python -m pip install pyTelegramBotAPI
+      #     python a.py
