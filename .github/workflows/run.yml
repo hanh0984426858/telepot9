@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Python Script
         run: |
-          python -m pip install requests
+          python -m pip install opencv-python
           python a.py
 
   run-python-via-powershell:
