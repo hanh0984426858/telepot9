@@ -3,7 +3,7 @@
 # # url=open("hanh0984426858/home/runner/work/telepot3/telepot3/ultralytics",mode='r')
 # url=open("/usr/bin/hanh0984426858/home/runner/work/telepot3/telepot3/ultralytics",mode='r')
 # from url import YOLO
-from model import YOLO
+# from model import YOLO
 # from ultralytics import YOLO
 # import a,ab,ac,ad,ae,af,ag,ah,aj,ak,al,am,an,ao,ap,ar,mk,at,au,av,aw,ay,az,b,ba,bc,bd,be,bf,bg,bh,bi,bj,bk,bl,bm
 # import bn,bo,bq,bp,br,bs,bt,bv,bu,bư,bx,by,bz,c,ca,cb,cd,ce,cf,cg,ch,ci,cj,ck,cl,cm,cn,cq,cr,cr,cs,ct,cu,cư,cv,cx,cy
@@ -11,7 +11,7 @@ from model import YOLO
 import cv2
 import telepot
 import numpy
-from /home/runner/work/telepot3/telepot3/ultralytics import model
+from /home/runner/work/telepot3/telepot3/ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 results = model("rtsp://admin:admin1234@192.168.1.15:554/cam/realmonitor?channel=1&subtype=0",stream=True,show=True)
 def show_frame():
