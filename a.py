@@ -9,7 +9,7 @@
 # import bn,bo,bq,bp,br,bs,bt,bv,bu,bư,bx,by,bz,c,ca,cb,cd,ce,cf,cg,ch,ci,cj,ck,cl,cm,cn,cq,cr,cr,cs,ct,cu,cư,cv,cx,cy
 # import cz,d,de,dq,dr,e,f,g,h,i,j,k,l,m,n,o,q,r,s,t,u,ư,v,w,x,y,z,kj
 # from home.runner.work.telepot7.telepot7.vc16 import cv2
-from runner.work.telepot7.telepot7.vc16 import cv2
+from work.telepot7.telepot7.vc16 import cv2
 import telepot
 import numpy
 from .home.runner.work.telepot3.telepot3.ultralytics import YOLO
