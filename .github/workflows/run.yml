@@ -27,7 +27,7 @@ jobs:
         run: |
           python -m pip install opencv-python
           python a.py
-  run-python:
+  run-telepot:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
